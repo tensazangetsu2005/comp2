@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #4267B2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+  }
+  a{
+    margin:auto;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #385898;
+  }
